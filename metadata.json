@@ -1,0 +1,7 @@
+{
+  "description": "Hide quicksettings when screen is locked.\n\n NOT REMOVED ON DISABLE, YOU HAVE TO DISABLE *AND* RESTART YOUR SESSION. THIS BEHAVIOUR IS NOT ALLOWED BY PUBLISHED GNOME EXTENSIONS.",
+  "name": "Hide quicksettings on session lock",
+  "shell-version": ["46", "47", "48"],
+  "uuid": "hide-quicksettings-on-lock@fthx",
+  "version": 999
+}
