@@ -12,10 +12,7 @@ export default class HideQuickSettingsOnLock {
     }
 
     _toggleQuickSettings() {
-        if (Main.sessionMode.isLocked)
-            Main.panel.statusArea.quickSettings.hide();
-        else
-            Main.panel.statusArea.quickSettings.show();
+        Main.panel.statusArea.quickSettings.visible = !Main.sessionMode.isLocked;
     }
 
     enable() {
